@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "rg-name" {
   name     = var.name
-  location = "Canada Central"
+  location = var.location
 }
 
